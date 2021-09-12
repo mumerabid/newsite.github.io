@@ -67,10 +67,14 @@ a:hover {
   background-color: #fff;
   box-shadow: 0px 0px 15px grey;
   display: flex;
-  justify-content: center;
   align-items: center;
   border-bottom: 2px solid black;
   overflow: hidden;
+}
+.main-head-padding {
+  width: 22vw;
+  height: 20vh;
+  /* background-color: black; */
 }
 .v-line {
   border-left: 1px solid lightgray;
@@ -96,6 +100,6 @@ a:hover {
 }
 .log-on-to-bar-text {
   font-family: Arial, sans-serif;
-  font-size: 1.25rem;
+  font-size: 1opx;
   /* font-weight: 510; */
 }
