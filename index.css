@@ -2,9 +2,22 @@
   margin: 0;
   padding: 0;
 }
+a {
+  /* color: var(--color-dark); */
+  text-decoration: none;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
 h4 {
   font-family: Arial, sans-serif;
-  font-size: 2.6vh;
+  font-size: 1.29vw;
 }
 .input-box {
   width: 100%;
@@ -52,7 +65,7 @@ a:hover {
   flex-direction: column;
 }
 .header1 {
-  width: 100vw;
+  width: 99vw;
   height: 5vh;
   background-color: #515358;
   overflow: hidden;
@@ -77,7 +90,7 @@ a:hover {
 }
 .head1-text {
   padding-right: 20px;
-  font-size: 13px;
+  font-size: 1vw;
 }
 .h-text-color {
   color: aliceblue;
@@ -87,12 +100,13 @@ a:hover {
   /* height: 12vh; */
 }
 .image-adjustment {
+  /* width: 10vw; */
   margin-right: 1.8vw;
   margin-top: 0.8vh;
 }
 .main-head {
   height: 17vh;
-  width: 100vw;
+  width: 99vw;
   background-color: #fff;
   box-shadow: 0px 0px 15px black;
   display: flex;
@@ -111,7 +125,7 @@ a:hover {
   margin-bottom: 10px;
 }
 .h-small-text {
-  font-size: 0.6rem;
+  font-size: 0.7vw;
   color: gray;
   font-family: Arial, sans-serif;
   margin-bottom: 14%;
@@ -119,14 +133,13 @@ a:hover {
 .log-on-to-bar {
   display: flex;
   align-items: flex-end;
-  height: 5vh;
-  width: 85vw;
+  height: 3vw;
   background-color: #f8f8f8;
   padding-left: 15.3vw;
 }
 .log-on-to-bar-text {
   font-family: Arial, sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.75vw;
   /* font-weight: 510; */
 }
 .body {
@@ -151,7 +164,7 @@ a:hover {
 .o-o-exp {
   padding-top: 1vh;
   padding-left: 2.1vw;
-  font-size: 0.87rem;
+  font-size: 1.2vw;
 }
 .o-o-button {
   padding-left: 2vw;
@@ -166,8 +179,8 @@ a:hover {
   cursor: pointer;
   color: #ffffff;
   font-family: Arial;
-  font-size: 15px;
-  padding: 10px 17px;
+  font-size: 1.2vw;
+  padding: 1vh 1vw;
   text-decoration: none;
   text-shadow: 0px 1px 0px #b23e35;
 }
@@ -183,11 +196,11 @@ a:hover {
 }
 .rember-my-name {
   margin-left: 2.1vw;
-  /* padding-top: -5vh; */
+  font-size: 1vw;
 }
 .o-o-Forget {
-  margin: 1vh 0 0 2vw;
-  font-size: 0.8rem;
+  margin: 2vh 0 0 2vw;
+  font-size: 1.1vw;
 }
 .t-t {
   margin-left: 3.2vw;
@@ -202,19 +215,19 @@ a:hover {
 .Register-for-online-Banking {
   margin: 9vh 0 0 2vw;
   font-family: Arial, sans-serif;
-  font-size: 1rem;
+  font-size: 1.3vw;
   font-weight: bold;
 }
 .Manage-your-money {
   margin: 6vh 0 0 1.5vw;
   font-family: Arial, sans-serif;
-  font-size: 0.9rem;
+  font-size: 1.1vw;
 }
 .t-t-button {
   margin: 5.9vh 0 0 1.9vw;
 }
 .t-t-button-size {
-  width: 190px;
+  width: 14vw;
 }
 .long-h-line {
   margin-top: 6vh;
@@ -299,12 +312,12 @@ a:hover {
   font-size: 0.8rem;
 }
 .small-footer {
-  width: 100vw;
+  width: 99vw;
   height: 10vh;
   background-color: #71747c;
 }
 .big-footer {
-  width: 100vw;
+  width: 99vw;
   height: 42vh;
   background-color: #3e4045;
 }
