@@ -366,8 +366,59 @@
   .foot-text {
     font-size: 10vw;
   }
+  .button {
+    background-color: #4caf50; /* Green */
+    border: none;
+    color: white;
+    padding: 0px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 18px 8px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  .button2 {
+    width: 40%;
+  }
 }
-
+@media screen and (max-width: 840px) {
+  .button {
+    background-color: #BC0E0A;
+    border: none;
+    color: white;
+    /* padding: 0 1vw 0 1vw; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vw;
+    margin: 17px 9px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  .button2 {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .button {
+    background-color: #bc0e0a;
+    border: none;
+    color: white;
+    padding: 1vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vw;
+    margin: 10px 9px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  .button2 {
+    width: 50%;
+  }
+}
 @media screen and (max-width: 441px) {
   .jugar {
     width: 100vw;
@@ -378,13 +429,21 @@
     width: 20vw;
     margin: 0 0;
     padding: 0 0;
-    /* padding: 0.23vw; */
-    /* margin: 2vw 0; */
-    /* box-sizing: border-box; */
   }
-}
-@media screen and (max-width: 600px) {
-  .button-adj {
-    margin: -1vw 0 0 1px;
+  .button {
+    background-color: #BC0E0A
+    border: none;
+    color: white;
+    padding: 1vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vw;
+    margin: 0px 9px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  .button2 {
+    width: 50%;
   }
 }
