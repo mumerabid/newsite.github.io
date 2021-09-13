@@ -244,16 +244,16 @@
     margin-top: 5vh;
   }
   .Bussiness-customers {
-    margin: 7vw 0 0 1.8vw;
+    margin: 3vw 0 0 1.8vw;
     font-family: Arial, sans-serif;
     font-weight: bold;
     font-size: 1.9vw;
   }
   .Log-on-to-bussiness {
-    margin: 4vw 0 0 4vw;
+    margin: 4vw 0 0 6vw;
     font-family: Arial, sans-serif;
     /* font-weight: bold; */
-    font-size: 1.6vw;
+    font-size: 1.8vw;
   }
   .protecting-your-money {
     margin: 13vw 0 0 3vw;
@@ -273,30 +273,30 @@
     height: 30vw;
   }
   .Mobile-Banking {
-    margin: 7vw 0 0 3vw;
+    margin: 3vw 0 0 3vw;
     font-family: Arial, sans-serif;
     font-weight: bold;
-    font-size: 2vw;
+    font-size: 2.3vw;
   }
   .f-f-exp {
-    margin: 1.7vh 0 0 3vw;
+    margin: 2.5vw 0 0 4vw;
     font-family: Arial, sans-serif;
-    font-size: 1.5vw;
+    font-size: 1.7vw;
   }
   .Download-the-app {
-    margin: 5vh 0 0 4.2vw;
+    margin: 5vw 0 0 4.2vw;
     font-family: Arial, sans-serif;
-    font-size: 1.6vw;
+    font-size: 1.9vw;
     font-weight: bold;
   }
   .download-app-store {
-    margin: 11wh 0 0 1.8vw;
+    margin: 0vw 0 0 0.5vw;
   }
   .store-adj {
     /* width: 40vw;
     height: 10vw; */
     /* background-color: #515358; */
-    margin: 3vh 0 0 4.1vw;
+    margin: 2vw 0 0 3vw;
   }
   .appstore-resize {
     width: 17vw;
@@ -365,5 +365,12 @@
   }
   .foot-text {
     font-size: 10vw;
+  }
+}
+@media screen and (max-width: 441px) {
+  .jugar {
+    width: 100vw;
+    height: 10vw;
+    /* background-color: lightgray; */
   }
 }
