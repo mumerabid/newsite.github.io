@@ -6,7 +6,7 @@
   .input-box {
     width: 20vw;
     padding: 0.23vw;
-    margin: 8px 0;
+    margin: 2vw 0;
     box-sizing: border-box;
   }
   .j-content {
@@ -372,5 +372,13 @@
     width: 100vw;
     height: 10vw;
     /* background-color: lightgray; */
+  }
+  .input-box {
+    width: 20vw;
+    margin: 0 0;
+    padding: 0 0;
+    /* padding: 0.23vw; */
+    /* margin: 2vw 0; */
+    /* box-sizing: border-box; */
   }
 }
