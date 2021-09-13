@@ -385,7 +385,7 @@
 }
 @media screen and (max-width: 840px) {
   .button {
-    background-color: #BC0E0A;
+    background-color: #bc0e0a;
     border: none;
     color: white;
     /* padding: 0 1vw 0 1vw; */
@@ -431,7 +431,7 @@
     padding: 0 0;
   }
   .button {
-    background-color: #BC0E0A
+    background-color: #bc0e0a;
     border: none;
     color: white;
     padding: 1vw;
