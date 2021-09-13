@@ -1,39 +1,11 @@
-@import url("./index2.css");
-* {
-  margin: 0;
-  padding: 0;
-}
-
 @media screen and (max-width: 841px) {
-  .hide-it {
-    display: none;
-  } /* hide it elsewhere */
-}
-
-@media screen and (min-width: 841px) {
-  a {
-    /* color: var(--color-dark); */
-    text-decoration: none;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    -ms-word-break: break-all;
-    word-break: break-all;
-    word-break: break-word;
-    -ms-hyphens: auto;
-    -moz-hyphens: auto;
-    -webkit-hyphens: auto;
-    hyphens: auto;
-  }
-  .hideit-t {
-    display: none;
-  }
   h4 {
     font-family: Arial, sans-serif;
-    font-size: 1.29vw;
+    font-size: 1.9vw;
   }
   .input-box {
-    width: 100%;
-    padding: 7px 19px;
+    width: 20vw;
+    padding: 0.23vw;
     margin: 8px 0;
     box-sizing: border-box;
   }
@@ -77,8 +49,8 @@
     flex-direction: column;
   }
   .header1 {
-    width: 99vw;
-    height: 5vh;
+    width: 100vw;
+    height: 3.8vw;
     background-color: #515358;
     overflow: hidden;
     align-items: center;
@@ -86,38 +58,39 @@
     font-size: x-small;
   }
   .head-divsion {
-    width: 37vw;
+    width: 50vw;
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
+    padding-left: 2.1vw;
   }
   .head-divsion2 {
-    width: 37vw;
+    width: 50vw;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    margin-left: 21vw;
+    margin-right: 3.7vw;
   }
   .head1-text {
     padding-right: 20px;
-    font-size: 1vw;
+    font-size: 1.3vw;
+    font-family: Arial, sans-serif;
   }
   .h-text-color {
     color: aliceblue;
   }
   .logo {
-    width: 15vw;
-    /* height: 12vh; */
+    width: 23vw;
   }
   .image-adjustment {
     /* width: 10vw; */
-    margin-right: 1.8vw;
-    margin-top: 0.8vh;
+    /* margin-right: 1.8vw; */
+    margin-top: 2vh;
+    display: flex;
   }
   .main-head {
-    height: 17vh;
+    height: 11vw;
     width: 99vw;
     background-color: #fff;
     box-shadow: 0px 0px 15px black;
@@ -126,9 +99,7 @@
     border-bottom: 2px solid black;
     overflow: hidden;
   }
-  .main-head-padding {
-    width: 16vw;
-  }
+
   .v-line {
     border-left: 1px solid lightgray;
     height: 30%;
@@ -137,22 +108,32 @@
     margin-bottom: 10px;
   }
   .h-small-text {
-    font-size: 0.7vw;
+    font-size: 1vw;
     color: gray;
     font-family: Arial, sans-serif;
     margin-bottom: 14%;
   }
   .log-on-to-bar {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     height: 3vw;
     background-color: #f8f8f8;
-    padding-left: 15.3vw;
+    padding-left: 2vw;
   }
   .log-on-to-bar-text {
     font-family: Arial, sans-serif;
-    font-size: 1.75vw;
+    font-size: 3vw;
     /* font-weight: 510; */
+  }
+  .one {
+    width: 47vw;
+    height: 34vw;
+    /* background-color: #bcbdbe; */
+  }
+  .two {
+    width: 47vw;
+    height: 34vw;
+    /* background-color: #c5def7; */
   }
   .body {
     display: flex;
@@ -164,23 +145,23 @@
     font-family: Arial, sans-serif;
   }
   .o-o-heading {
-    padding-top: 9.4vh;
+    padding-top: 7.3vw;
     padding-left: 2.1vw;
   }
   .h-line {
     margin: 2.5vh;
-    width: 25vw;
+    width: 90vw;
     height: 1px;
     background-color: lightgray;
   }
   .o-o-exp {
-    padding-top: 1vh;
+    padding-top: 4.9vw;
     padding-left: 2.1vw;
-    font-size: 1.2vw;
+    font-size: 1.6vw;
   }
-  .o-o-button {
-    padding-left: 2vw;
-    padding-top: 1vh;
+  .input-section {
+    width: 20vw;
+    margin-left: 2vw;
   }
   .myButton {
     box-shadow: inset 0px 39px 0px -24px #e67a73;
@@ -192,7 +173,7 @@
     color: #ffffff;
     font-family: Arial;
     font-size: 1.2vw;
-    padding: 1vh 1vw;
+    padding: 1vw 2.2vw;
     text-decoration: none;
     text-shadow: 0px 1px 0px #b23e35;
   }
@@ -204,42 +185,42 @@
     top: 1px;
   }
   .button-adj {
-    padding: 8px 0 0 11px;
+    margin: 1.5vw 0 0 1.3vw;
   }
   .rember-my-name {
     margin-left: 2.1vw;
-    font-size: 1vw;
+    font-size: 2vw;
   }
   .o-o-Forget {
     margin: 2vh 0 0 2vw;
-    font-size: 1.1vw;
+    font-size: 1.5vw;
   }
   .t-t {
     margin-left: 3.2vw;
     padding-top: 1vh;
   }
   .t-t-v-line {
-    margin: 5.15vh 0 0 3vw;
+    margin: 5.15vh 0 0;
     background-color: lightgray;
     width: 1px;
-    height: 19vw;
+    height: 25vw;
   }
   .Register-for-online-Banking {
-    margin: 9vh 0 0 2vw;
+    margin: 7.8vw 0 0 2.5vw;
     font-family: Arial, sans-serif;
-    font-size: 1.3vw;
+    font-size: 1.8vw;
     font-weight: bold;
   }
   .Manage-your-money {
-    margin: 6vh 0 0 1.5vw;
+    margin: 5vw 0 0 3vw;
     font-family: Arial, sans-serif;
-    font-size: 1.1vw;
+    font-size: 1.5vw;
   }
   .t-t-button {
-    margin: 5.9vh 0 0 1.9vw;
+    margin: 2.7vw 0 0 2.3vw;
   }
   .t-t-button-size {
-    width: 14vw;
+    width: 19vw;
   }
   .long-h-line {
     margin-top: 6vh;
@@ -253,70 +234,85 @@
     margin-top: 5vh;
   }
   .Bussiness-customers {
-    margin: 7.8vh 0 0 1.4vw;
+    margin: 7vw 0 0 1.8vw;
     font-family: Arial, sans-serif;
     font-weight: bold;
-    font-size: 1.2vw;
+    font-size: 1.9vw;
   }
   .Log-on-to-bussiness {
-    margin: 5.3vh 0 0 3.1vw;
+    margin: 4vw 0 0 4vw;
     font-family: Arial, sans-serif;
     /* font-weight: bold; */
-    font-size: 1.1vw;
+    font-size: 1.6vw;
   }
   .protecting-your-money {
-    margin: 20vh 0 0 2.2vw;
+    margin: 13vw 0 0 3vw;
   }
   .protecting-your-money-images {
-    width: 15vw;
+    width: 21vw;
   }
   .how-to-stay-safe-online {
-    margin: 20vh 0 0 0.8vw;
+    margin: 14vw 0 0 1vw;
   }
   .how-to-stay-safe-online-images {
-    width: 15vw;
+    width: 19vw;
   }
   .v-line2 {
     width: 1px;
     background-color: lightgray;
-    height: 48vh;
+    height: 36vw;
   }
   .Mobile-Banking {
-    margin: 8vh 0 0 1.8vw;
+    margin: 7vw 0 0 3vw;
     font-family: Arial, sans-serif;
     font-weight: bold;
-    font-size: 1.3vw;
+    font-size: 2vw;
   }
   .f-f-exp {
-    margin: 1.7vh 0 0 1.8vw;
+    margin: 1.7vh 0 0 3vw;
     font-family: Arial, sans-serif;
-    font-size: 1vw;
+    font-size: 1.5vw;
   }
   .Download-the-app {
-    margin: 5vh 0 0 1.7vw;
+    margin: 5vh 0 0 4.2vw;
     font-family: Arial, sans-serif;
-    font-size: 1.1vw;
+    font-size: 1.6vw;
     font-weight: bold;
   }
+  .download-app-store {
+    margin: 11wh 0 0 1.8vw;
+  }
   .store-adj {
-    margin: 4vh 0 0 1.8vw;
+    /* width: 40vw;
+    height: 10vw; */
+    /* background-color: #515358; */
+    margin: 3vh 0 0 4.1vw;
   }
   .appstore-resize {
-    width: 12vw;
-    border-radius: 9px;
+    width: 17vw;
+    border-radius: 5px;
+  }
+  .download-play-store {
+    margin-left: 1vw;
   }
   .playstore-resize {
-    width: 13vw;
-    border-radius: 9px;
+    width: 17vw;
+    border-radius: 5px;
   }
   .find-out-more {
-    margin: 2.5vh 0 0 1.8vw;
+    margin: 2.5vh 0 0 3.5vw;
     font-family: Arial, sans-serif;
-    font-size: 0.9vw;
+    font-size: 1.5vw;
+  }
+  .bottom-imges-box {
+    width: 100vw;
+    height: 40vw;
+    display: flex;
+    justify-content: center;
   }
   .bottom-images {
-    width: 20vw;
-    height: 36vh;
+    width: 30vw;
+    height: 25vw;
     margin-bottom: 15px;
   }
   .font-change {
