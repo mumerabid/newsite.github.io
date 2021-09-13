@@ -135,6 +135,11 @@
     height: 34vw;
     /* background-color: #c5def7; */
   }
+  .three {
+    width: 47vw;
+    height: 40vw;
+    /* background-color: #bcbdbe; */
+  }
   .body {
     display: flex;
     width: 100vw;
@@ -313,28 +318,29 @@
   .bottom-images {
     width: 30vw;
     height: 25vw;
-    margin-bottom: 15px;
+    margin-bottom: 3vw;
   }
   .font-change {
     font-family: Arial, sans-serif;
-    font-size: 0.8rem;
+    font-size: 1.5vw;
   }
   .small-footer {
     width: 99vw;
-    height: 10vh;
+    height: 7vw;
     background-color: #71747c;
   }
   .big-footer {
     width: 99vw;
-    height: 42vh;
+    height: 42w;
     background-color: #3e4045;
   }
   .small-bar-font {
     font-family: Arial, sans-serif;
-    font-size: 1.5vw;
+    font-size: 2.5vw;
+    font-weight: bold;
   }
   .Help-Support {
-    margin-left: 17.5vw;
+    margin-left: 3vw;
     display: flex;
     align-items: center;
   }
@@ -344,12 +350,12 @@
     align-items: center;
   }
   .big-bar-font-margin {
-    margin-top: 2vh;
-    font-size: 1vw;
+    margin-top: 3vw;
+    font-size: 2vw;
   }
   .bottom-text {
     font-family: Arial, sans-serif;
-    font-size: 0.8vw;
+    font-size: 1.3vw;
     margin-right: 2vw;
   }
   .foot-text {
