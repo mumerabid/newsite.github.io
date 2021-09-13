@@ -144,7 +144,7 @@
   }
   .log-on-to-bar {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     height: 3vw;
     background-color: #f8f8f8;
     padding-left: 15.3vw;
@@ -363,12 +363,12 @@
     background-color: #bc0e0a;
     border: none;
     color: white;
-    padding: 1vw;
+    /* padding: 1px; */
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 1.5vw;
-    margin: 8px 9px;
+    margin: 9px 9px;
     cursor: pointer;
     border-radius: 3px;
   }
