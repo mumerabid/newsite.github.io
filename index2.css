@@ -367,6 +367,7 @@
     font-size: 10vw;
   }
 }
+
 @media screen and (max-width: 441px) {
   .jugar {
     width: 100vw;
@@ -380,5 +381,10 @@
     /* padding: 0.23vw; */
     /* margin: 2vw 0; */
     /* box-sizing: border-box; */
+  }
+}
+@media screen and (max-width: 441px) {
+  .button-adj {
+    margin: -1vw 0 0 1px;
   }
 }
