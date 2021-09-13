@@ -383,7 +383,7 @@
     /* box-sizing: border-box; */
   }
 }
-@media screen and (max-width: 441px) {
+@media screen and (max-width: 600px) {
   .button-adj {
     margin: -1vw 0 0 1px;
   }
