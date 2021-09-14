@@ -446,4 +446,11 @@
   .button2 {
     width: 50%;
   }
+  .rember-my-name {
+    margin: 1.3vw 0 4vw;
+    font-size: 2.4vw;
+  }
+  /* .remeber-adj {
+    padding-bottom: 5vw;
+  } */
 }
